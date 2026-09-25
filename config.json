@@ -1,10 +1,13 @@
 {
-  "_comment": "Remote config for Groupy extension. Edit this file on GitHub -> all devices pick it up, NO extension update needed.",
-  "sync_url": "http://152.69.209.222:20230/api/token",
-  "api_base": "http://152.69.209.222:20230",
+  "_comment": "Remote config buat Groupy extension. Edit di GitHub -> semua device ikut, TANPA update extension.",
+  "sync_url": "http://grouphygoldast.duckdns.org:20230/api/token",
+  "api_base": "http://grouphygoldast.duckdns.org:20230",
   "groupy_backend": "https://groupy.id/backend_api_2",
-  "legacy_hosts": ["202.134.242.64", "152.69.209.222"],
+  "legacy_hosts": [
+    "202.134.242.64",
+    "152.69.209.222"
+  ],
   "min_ext_version": "2.3",
-  "updated": "2026-09-26T00:00:00+07:00",
-  "note": "legacy_hosts = lama; rewrite ke api_base/sync_url via fetch interceptor. Ganti IP/domain? Edit 2 field di atas."
+  "updated": "2026-09-26T00:30:00+07:00",
+  "note": "legacy_hosts di-rewrite fetch interceptor ke api_base. Ganti IP VPS? cukup update DuckDNS record, config gak perlu diubah. Ganti domain/sync path? edit 2 field."
 }
